@@ -1,0 +1,43 @@
+{
+  "name": "stickersmash",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.0.0",
+    "expo": "~50.0.5",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.2",
+    "react-dom": "18.2.0",
+    "react-native-web": "~0.19.6",
+    "@expo/webpack-config": "~19.0.1",
+    "@react-native-community/datetimepicker": "7.6.1",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "axios": "^1.4.0",
+    "expo-checkbox": "~2.7.0",
+    "expo-dev-client": "~3.3.8",
+    "expo-document-picker": "~11.10.1",
+    "expo-file-system": "~16.0.5",
+    "expo-image-picker": "~14.7.1",
+    "https": "^1.0.0",
+    "react-hook-form": "^7.44.3",
+    "react-native-date-picker": "^4.3.5",
+    "react-native-document-picker": "^9.0.1",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-modal": "^13.0.1",
+    "react-native-multiple-select": "^0.5.12",
+    "react-native-screens": "~3.29.0",
+    "react-native-select-dropdown": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
