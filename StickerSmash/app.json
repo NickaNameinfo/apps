@@ -4,45 +4,22 @@
     "slug": "nicknameinfo",
     "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
       "backgroundColor": "#ffffff"
     },
     "plugins": [
-      [
-        "expo-document-picker",
-        {
-          "iCloudContainerEnvironment": "Production"
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "The app accesses your photos to let you share them with your friends."
-        }
-      ]
+      ["expo-document-picker", { "iCloudContainerEnvironment": "Production" }]
     ],
     "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
+    "ios": { "supportsTablet": true },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.arul8270.StickerSmash"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "ca0c2599-c583-4d72-b59d-e5f9f1cab646"
-      }
-    },
+    "extra": { "eas": { "projectId": "ca0c2599-c583-4d72-b59d-e5f9f1cab646" } },
     "owner": "nicknameinfotech2020"
   }
 }
